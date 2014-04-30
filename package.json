@@ -19,7 +19,8 @@
     "sha256",
     "sha512",
     "sha",
-    "dsa"
+    "dsa",
+    "cryptr"
   ],
   "author": "Maurice Butler <maurice.butler@gmail.com>",
   "license": "MIT",
