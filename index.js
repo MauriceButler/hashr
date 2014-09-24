@@ -16,7 +16,7 @@ function hash(value, algorithm, encoding){
     }
 
     var createdHash = crypto.createHash(algorithm || 'sha1');
-    createdHash.update(value);
+    createdHash.update(value, 'utf8');
 
     return createdHash.digest(encoding || 'hex');
 }
