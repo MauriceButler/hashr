@@ -1,6 +1,6 @@
 {
   "name": "hashr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple module for simplifying hashing of values",
   "main": "index.js",
   "scripts": {
